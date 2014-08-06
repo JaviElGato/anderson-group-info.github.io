@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <link type="text/css" rel="stylesheet" href="../style.css"/>
+        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+        <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet" />
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <!--<script type="text/javascript" src="../d3/d3.v2.js"></script>-->
+        <script type="text/javascript" src="../fancybox2/source/jquery.fancybox.js"></script>
+        <link href="../fancybox2/source/jquery.fancybox.css" rel="stylesheet"  media="screen"/>
+        <link href="../teamwebsite.style.css" rel="stylesheet" />
+        <script type="text/javascript" src="../teamwebsite.common.js"></script>
+    
+        <!-- Important, this is used to make the site work in IE8 -->
+        <!--[if lt IE 9]>
+            <script src="../html5shiv/dist/html5shiv.js"></script>
+            <script src="../respond/respond.min.js"></script>
+            <script src="../selectivizr/selectivizr-min.js"></script>
+        <![endif]-->
+    </head>
+    <body style="margin: 0px; padding: 0px;">
+	<div class="container-fluid" style="padding: 0px;" >
+
+	    <div class="navbar navbar-fixed-top navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <!-- Everything you want hidden at 940px or less, place within here -->
+                    <div class="nav-collapse collapse">
+                    <!-- .nav, .navbar-search, .navbar-form, etc -->
+                        <ul class="nav pull-left">
+                            <li><a id="link-home" href="../#home">HOME</a></li>
+                            <li><a id="link-team" href="../#team">TEAM</a></li>
+                            <li><a id="link-research" href="../#research">RESEARCH</a></li>
+                            <li><a id="link-papers" href="../#papers">PAPERS</a></li>
+                            <li><a id="link-software" href="../#software">SOFTWARE</a></li>            
+                            <li><a id="link-gallery" href="../#gallery">GALLERY</a></li> 
+                            <li><a id="link-contact" href="../#contact">CONTACT</a></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+	    </div>
+
+
+	    <div class="row-fluid panel research" id="research">
+            <div class="span12" style="padding-top:40px; margin-bottom: 0px;;">
+                <div class="row-fluid">
+                    <div class="span12" >
+                        <section> 
+                            <h1>
+                                Our research/Our diseases
+                            </h1>
+                        </section>
+                    </div>        
+                </div>
+                <div class="row-fluid">
+                    <div class="span2" >
+                        &nbsp;
+                    </div>
+                    <div class="span3" >
+                        <div class="thumbnail" >
+                            <img src="../img/our-diseases.jpg" alt="" class="img-rounded">
+                        </div>
+                    </div>
+                    <div class="span5">
+                        <div class="thumbnail descriptionblock" >
+                            <!--CHANGEME-->
+                            <h4>About our diseases</h4>
+                            <!--CHANGEME-->
+                            <p>
+                            The main disease focus of the group is autoimmune and autoinflammatory disease, though this is now expanding into a more general interest in the broader immune system.
+                            We are currently researching four different immune-mediated diseases, Crohn's disease, ulcerative colitis, primary biliary cirrhosis and primary sclerosing cholangitis.
+                            </p>
+                            <br>
+                            <p>
+							<i>Crohn's disease</i>: A chronic relapsing autoinflammatory disease that can affect any part of the gastrointestinal tract, though most commonly it is located in the terminal ileum or the perianal region.
+							The disease is characterised by non-continuous patches of inflammation, and strictures, abscesses and fistulas are often observed.
+							Peak incidence is in early adult life, although individuals of any age can be affected.
+							Family history of Crohn's is a significant risk factor and Crohn's is thought to result from an inappropriate and continuing inflammatory response to commensal gastrointestinal tract microbes in genetically susceptible individuals.
+							We have conducted <a href="gwas.html">genome-wide association</a>, <a href="immunochip.html">immunochip</a>, <a href="whole-genome-sequencing.html">whole-genome sequencing</a> and <a href="whole-exome-sequencing.html">whole-exome sequencing</a> studies of Crohn's disease
+							</p>
+							<br>
+							<p>
+							<i>Ulcerative colitis</i>: One of two common forms of inflammatory bowel disease (the other being Crohn's disease), ulcerative colitis is characterised by continuous superficial inflammation of the mucosa and submucosa that is restricted to the large bowel.
+							Much like Crohn's disease the peak incidence is in early adult life, though again individuals of any age can be affected.
+							Again like Crohn's, Family history of ulcerative colitis is a significant risk factor and the disease is thought to result from an inappropriate and continuing inflammatory response to commensal gastrointestinal tract microbes in genetically susceptible individuals.
+							Given the similarities of Crohn's disease and ulcerative colitis it is perhaps not surprising to know that the majority of risk variants underlying one disease are also risk factors for the other (though the magnitude of effect can differ greatly between the two phenotypes).
+							We have conducted <a href="gwas.html">genome-wide association</a>, <a href="immunochip.html">immunochip</a> and <a href="whole-genome-sequencing.html">whole-genome sequencing</a> studies of ulcerative colitis.
+							<br>
+							<p>
+							<i>Primary biliary cirrhosis</i>: A seropositive autoimmune disease of the liver characterised by slow progressive destruction of the small bile ducts. This causes bile to build up in the liver (cholestasis) and over time this damages the liver tissue, leading to scarring, fibrosis and cirrhosis.
+							With a UK prevalence of 35:100,000, which rises to 94:100,000 in women over 40 years of age, it is the most common autoimmune liver disorder.
+							Females are much more likely to suffer from PBC, with at least a 9:1 female:male sex ratio.
+							We have conducted <a href="gwas.html">genome-wide association</a> and <a href="immunochip.html">immunochip</a> studies of PBC and over 25 independent genetic risk loci have now been identified.
+							</p>
+							<br>
+							<p>
+							<i>Primary sclerosing cholangitis</i>: A seronegative autoimmune disease of the liver characterised by slow progressive destruction of intrahepatic (inside the liver) and extrahepatic (outside the liver) bile ducts.
+							Much like with PBC, this causes bile to build up in the liver (cholestasis) and over time this damages the liver tissue, leading to scarring, fibrosis and cirrhosis.
+							Approximately 70-80% of individuals with PSC will have co-morbid ulcerative colitis, but only 1-2% of UC cases will have co-morbid PSC.
+							Individuals with PSC have an increased risk of cholangiocarcinoma.
+							We have conducted <a href="gwas.html">genome-wide association</a> and <a href="immunochip.html">immunochip</a> studies of PSC and 16 independent genetic risk loci have now been identified.
+							</p>
+                        </div>
+                    </div>
+                    <div class="span2" >&nbsp;</div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span2" >&nbsp;</div>
+                    <div class="span8">&nbsp;</div>        
+                    <div class="span2">
+                        <a class="next-tag-a" href="../#research">
+                            <div  id="next-tag-papers" class="next-tag papers" > <h3>&lt;= back to research </h3></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+                    
+    </body>
+
+
+</html>
+

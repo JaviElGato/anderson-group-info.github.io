@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <link type="text/css" rel="stylesheet" href="../style.css"/>
+        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+        <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet" />
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <!--<script type="text/javascript" src="../d3/d3.v2.js"></script>-->
+        <script type="text/javascript" src="../fancybox2/source/jquery.fancybox.js"></script>
+        <link href="../fancybox2/source/jquery.fancybox.css" rel="stylesheet"  media="screen"/>
+        <link href="../teamwebsite.style.css" rel="stylesheet" />
+        <script type="text/javascript" src="../teamwebsite.common.js"></script>
+
+
+        <!-- Important, this is used to make the site work in IE8 -->
+        <!--[if lt IE 9]>
+            <script src="../html5shiv/dist/html5shiv.js"></script>
+            <script src="../respond/respond.min.js"></script>
+            <script src="../selectivizr/selectivizr-min.js"></script>
+        <![endif]-->
+    
+    </head>
+    <body style="margin: 0px; padding: 0px;">
+	<div class="container-fluid" style="padding: 0px;" >
+
+	    <div class="navbar navbar-fixed-top navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <!-- Everything you want hidden at 940px or less, place within here -->
+                    <div class="nav-collapse collapse">
+                    <!-- .nav, .navbar-search, .navbar-form, etc -->
+                        <ul class="nav pull-left">
+                            <li><a id="link-home" href="../#home">HOME</a></li>
+                            <li><a id="link-team" href="../#team">TEAM</a></li>
+                            <li><a id="link-research" href="../#research">RESEARCH</a></li>
+                            <li><a id="link-papers" href="../#papers">PAPERS</a></li>
+                            <li><a id="link-software" href="../#software">SOFTWARE</a></li>            
+                            <li><a id="link-gallery" href="../#gallery">GALLERY</a></li> 
+                            <li><a id="link-contact" href="../#contact">CONTACT</a></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+	    </div>
+
+
+	    <div class="row-fluid panel research" id="research">
+            <div class="span12" style="padding-top:40px; margin-bottom: 0px;;">
+                <div class="row-fluid">
+                    <div class="span12" >
+                        <section> 
+                            <h1>
+                                Our research/Immunochip
+                            </h1>
+                        </section>
+                    </div>        
+                </div>
+                <div class="row-fluid">
+                    <div class="span2" >
+                        &nbsp;
+                    </div>
+                    <div class="span3" >
+                        <div class="thumbnail" >
+                            <img src="../img/GRAIL.jpg" alt="" class="img-rounded">
+                        </div>
+                    </div>
+                    <div class="span5">
+                        <div class="thumbnail descriptionblock" >
+                            <!--CHANGEME-->
+                            <h4>About the Immunochip</h4>
+                            <!--CHANGEME-->
+                            <p>
+                                The Immunochip is a custom genotyping array from Illumina that contains almost 200,000 genetics markers drawn from regions of the genome showing at least nominal evidence of association to one or more immune-mediated diseases.
+								Specifically, the array features dense SNP content (drawn from the pilot phase of the 1000 genomes project) within 186 loci previously associated with at least one immune-mediated trait at genome-wide significance.
+								The purpose of this content is to allow fine-mapping of known association signals (and to allow associations to be detected for diseases other than the index phenotypes).
+								The array also features SNPs that acheived at least nominal significance in large-scale meta-analyses of 12 different autoimmune diseases.
+								The primary purpose of this content is deep replication - it is very likely that many of these SNPs are associated with disease and by genotyping them in larger cohorts we will be able to identify these.
+                            	The Immunochip contains a wide range of common, low-frequency and rare variants and, together with the the reduced level of probe QC during array design and production, these present challenges to genotype calling algorithms.
+                            	With accurate genotype calling across Immunochip of major importance to our applied research, we developed optiCall - a novel genotype calling algorithm that use both across sample and across SNP calling methods to increase the accuracy of genotype calls.
+                            	The algorithm can applied to any Illumina genotype array.
+                            </p>
+                            <br />
+			    			<h4>About our Immunochip projects</h4>
+                            <!--CHANGEME-->
+                            <p>
+                                Our group has been involved in Immunochip studies of four different autoimmune diseases: Primary Biliary Cirrhosis, Inflammatory Bowel Disease, Primary Sclerosing Cholangitis and Multiple Sclerosis (see Our Diseases for more information on these phenotyes).
+                            </p>
+                            <br />
+                            	<i>Primary Biliary Cirrhosis</i>: Our first Immunochip project focused on PBC and identified a three additional susceptibility loci.
+                            	In addition to this we identified five loci with multiple independent association signals, including a locus on chromosome 3q25 containing the IL12A gene that has four independent association signals.
+                            	We also showed that linkage disequilibrium needs to be taken into account when testing for functional enrichments across associated loci and developed an easy method for doing this.
+                            	Identifying such functional enrichments allows disease relevant cell types to be identified and better defines functional follow-up experiments.
+                            	The PBC Immunochip experiment was carried under the umbrella of WTCCC3 and in collaboration with the UK PBC Consortium.
+                            	As part of his PhD work, Sun-Gou has called CNVs using the immunochip data and performed an association analysis that we're in the process of validating and replicating.
+                            </p>
+                             <br />
+                            	<i>Inflammatory Bowel Disease</i>: We were also involved in the International IBD Genetics Consortium's Immunochip project, though the Sanger component of this was primarily driven by Jeff Barrett and his group.
+                            	Using a total of 75,000 cases and controls we identified 71 new disease associations, raising the total number of confirmed IBD risk loci to 163.
+                            	Most of the loci are associated with both Crohn's disease and ulcerative colitis and many loci are also implicated in other immune-mediated disorders, most notably with ankylosing spondylitis and psoriasis.
+                            	We observed considerable overlap between susceptibility loci for IBD and mycobacterial infection.
+                            	Gene co-expression network analysis emphasized this relationship, with pathways shared between host responses to mycobacteria and those predisposing to IBD.
+                            	We are also currently working on the first ever trans-ethnic association study of IBD.
+                            	Through the IIBDGC we have access to large cohorts from Japan, South Korea, Iran and India and, having completed index association analyses, we are now comparing the genetic architectures of European vs non-European IBD.
+                            </p>
+                             <br />
+                            	<i>Primary Sclerosing Cholangitis</i>: Together with the International PSC Study group we undertook the largest ever genetic study of PSC based on 3,800 PSC cases and 25,000 population controls.
+                            	We identified nine novel PSC risk loci and implicated novel biological pathways in disease etiology (such as negative T-cell selection in the thymus).
+                            	Despite comorbidity with inflammatory bowel disease (IBD) in 72% of the cases, 6 of the 12 loci showed significantly stronger association with PSC than with IBD, suggesting overlapping yet distinct genetic architectures for these two diseases. 
+                            	By incorporating in the analysis association statistics from 7 diseases clinically occurring with PSC we found suggestive evidence for 33 additional pleiotropic PSC risk loci.
+                            </p>
+                             <br />
+                            	<i>Multiple Sclerosis</i>: Our role in the International Multiple Sclerosis Genetics Consortium's Immunochip project was to use our optiCall genotype calling algorithm to accurately call genotypes across all 40,000 individuals in the study.
+                            	We also provided means of performing post-association cluster plot checks to identify false-positive associations.
+                            </p>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="span2" >&nbsp;</div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span2" >&nbsp;</div>
+                    <div class="span8">&nbsp;</div>        
+                    <div class="span2">
+                        <a class="next-tag-a" href="../#research">
+                            <div  id="next-tag-papers" class="next-tag papers" > <h3>&lt;= back to research </h3></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+                    
+    </body>
+
+
+</html>
+

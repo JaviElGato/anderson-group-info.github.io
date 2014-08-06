@@ -1,0 +1,188 @@
+.home {
+    background-color: #0099CC;
+}
+.home h1 {
+    color: white;
+}
+.team {
+    background-color: #E68A2E;
+}
+.team h1 {
+    color: white;
+}
+.research {
+    background-color: #9933FF;
+}
+.research h1 {
+    color: white;
+}
+.papers {
+    background-color: #D683FF;
+}
+.papers h1 {
+    color: white;
+}
+.software {
+    background-color: #19D175;
+}
+.software h1 {
+    color: white;
+}
+.gallery {
+    background-color: #FF7373;
+}
+.gallery h1 {
+    color: white;
+}
+.contact {
+    background-color:   #FFFFFF;
+}
+.contact h1 {
+    color: black;
+}
+
+
+
+
+
+
+.panel {
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+}
+
+.row-fluid ul.thumbnails li img { max-height:200px; }
+
+.next-tag {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    text-align: center;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    padding: 8px;
+    color: white;
+    margin:0px;
+    cursor: pointer;
+}
+
+#next-tag-contact {
+    color: black;
+
+}
+
+
+
+.next-tag-a:link, .next-tag-a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.next-tag-a:hover {
+  color: white;
+}
+
+
+
+
+/* fix fox broken boostrap thumbnails */
+.row-fluid ul.thumbnails li.span12 + li { margin-left : 0px;clear:left }
+.row-fluid ul.thumbnails li.span6:nth-child(2n + 3) { margin-left : 0px;clear:left }
+.row-fluid ul.thumbnails li.span4:nth-child(3n + 4) { margin-left : 0px;clear:left }
+.row-fluid ul.thumbnails li.span3:nth-child(4n + 5) { margin-left : 0px; clear:left}
+.row-fluid ul.thumbnails li.span2:nth-child(6n + 7) { margin-left : 0px;clear:left }
+.row-fluid ul.thumbnails li.span1:nth-child(12n + 13) { margin-left : 0px;clear:left }
+
+
+.gallimg{
+    float:left;
+    margin: 5px;
+    padding:0px;
+    border: 5px solid white;
+    border-top-left-radius: 4px 4px;
+    border-bottom-left-radius: 4px 4px;
+    border-bottom-right-radius: 4px 4px;
+    border-top-right-radius: 4px 4px;
+    background-color: white;
+}
+
+.gallimg img{
+
+    border-top-left-radius: 4px 4px;
+    border-bottom-left-radius: 4px 4px;
+    border-bottom-right-radius: 4px 4px;
+    border-top-right-radius: 4px 4px;
+    height: 180px;
+}
+
+.contactimg{
+    text-align: center;
+    margin: 5px;
+    padding:0px;
+    border: 5px solid black;
+    border-top-left-radius: 4px 4px;
+    border-bottom-left-radius: 4px 4px;
+    border-bottom-right-radius: 4px 4px;
+    border-top-right-radius: 4px 4px;
+    background-color: black;
+
+}
+
+.contactimg img{
+    border-top-left-radius: 4px 4px;
+    border-bottom-left-radius: 4px 4px;
+    border-bottom-right-radius: 4px 4px;
+    border-top-right-radius: 4px 4px;
+}
+
+.thumbnail {
+    background-color: white;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.descriptionblock {
+    text-align: left;
+    min-height: 600px;
+    padding: 8px;
+}
+
+
+
+
+#homepane_topleft {
+    background: url('img/img_homepage_PBC.jpg') no-repeat white scroll 42% center;
+    -webkit-border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    border-radius: 4px;
+}
+
+
+#homepane_topright {
+    background: url('img/gallery/5.jpg') no-repeat white scroll 40% 30%; 
+    -webkit-border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    border-radius: 4px;
+}
+
+
+#homepane_bottomleft {
+    background: url('img/campusimg.jpg') no-repeat white scroll 45% 55%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+
+
+#homepane_bottomright {
+    background: url('img/img_homepage_science.jpg') no-repeat white scroll 42% center;
+    -webkit-border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    border-radius: 4px;
+}
+
+
